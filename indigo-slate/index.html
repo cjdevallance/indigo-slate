@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Office Holiday Cycle 2</title>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-8 col-md-5 logo">
+				<img src="img/microsoft-logo.png" alt="Microsoft">
+			</div>
+
+			<div class="col-4 col-md-7 menu-desktop">
+
+				<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="business.html">Business</a></li>
+				<li><a href="complete-pc.html">Complete PC</a></li>
+				<li><a href="office-help.html">Office Help</a></li>
+				</ul>
+
+			</div>
+			
+			<div class="col-4 menu-mobile">
+
+				<div id="menuToggle">
+    
+					<input type="checkbox"></input>
+
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<ul id="menu">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="business.html">Business</a></li>
+					<li><a href="complete-pc.html">Complete PC</a></li>
+					<li><a href="office-help.html">Office Help</a></li>
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</header>
+
+<section class="welcome">
+
+	<div class="container">
+
+		<div class="row">
+ 
+			<div class="col-12 col-md-6 hero">
+				<img src="img/hero-homepage.jpg" alt="This is your 365">
+			</div>
+
+			<div class="col-12 col-md-6 content">
+
+				<h1>What's included</h1>
+
+				<div class="app-container app-grid">
+				
+					<div class="app-title">
+						<h2>Apps</h2>
+					</div>
+					
+					<div class="icon grid1">
+						<img src="img/icon-word.png" alt="Word"><br>
+						Word
+					</div>
+				
+					<div class="icon grid2">
+						<img src="img/icon-excel.png" alt="Excel"><br>
+						Excel
+					</div>
+				
+					<div class="icon grid3">
+						<img src="img/icon-powerpoint.png" alt="PowerPoint"><br>
+						PowerPoint
+					</div>
+				
+					<div class="icon grid4">
+						<img src="img/icon-onenote.png" alt="OneNote"><br>
+						OneNote
+					</div>
+				
+					<div class="icon grid5">
+						<img src="img/icon-outlook.png" alt="Outlook"><br>
+						Outlook
+					</div>
+
+				</div>		
+				
+				<div class="services-container">
+
+					<h2>Services</h2>
+
+					<div class="services-icon"><img src="img/icon-cloud.png"></div> <div class="services-label">1 TB cloud storage</div>
+					<div class="services-icon"><img src="img/icon-update.png"></div> <div class="services-label">Premium version apps</div>
+					<div class="services-icon"><img src="img/icon-skype.png"></div> <div class="services-label">60 monthly minutes on Skype</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<section class="homevideo">
+
+	<div class="container">
+
+		<div class="row main">
+		
+			<div class="video-player">
+				<div class="video-group-1">
+					<video width="100%" height="300"></video>
+					<div class="play-button big"><img src="img/caret-large.png"></div>
+					<div class="video-time-box big">:30</div>
+				</div>
+			</div>
+			
+			<div class="video-title">
+				<h3><span class="orange">Office 365</span> Home offers you more. Share and save with up to six people.</h3>
+			</div>
+
+			<div class="video-content">
+
+				<div class="row">
+				
+					<div class="col-12 col-md-6">
+				
+						<div class="block-head">For your family?</div>
+
+						<div class="block-two">
+							<div class="block-small">Up to</div>
+							<div class="block-large">6</div>
+							<div class="block-small">People</div>
+						</div>
+					
+						<div class="block-divider">&nbsp;</div>
+					
+						<div class="block-bottom">
+							<div class="block-medium">Get <span class="orange">Office 365</span> Home</div>
+						</div>
+						
+					</div>
+			
+					<div class="col-12 col-md-6">
+					
+						<div class="block-head">For you?</div>
+						
+						<div class="block-two">
+							<div class="block-small">&nbsp;</div>
+							<div class="block-large">1</div>
+							<div class="block-small">Person</div>
+						</div>
+					
+						<div class="block-divider">&nbsp;</div>
+				
+						<div class="block-bottom">
+							<div class="block-medium">Get <span class="orange">Office 365</span> Personal</div>
+				
+						</div>	
+						
+					</div>
+
+				</div>
+
+			</div>
+		
+		</div>
+
+	</div>
+
+</section>
+
+<section class="features">
+
+	<div class="container">
+
+		<div class="row">
+		
+			<div class="col-12 col-md-12 content">
+
+				<h3>Better Features<br>
+				Exclusive new apps for <span class="orange">Office 365</span> Home</h3>
+
+				<p>The best just got better, with exclusive new Office 365 features designed to ignite your creative process, plus with all your essential favorites in one place—it's time to create your best work.</p>
+
+				<div class="main-tabs">
+  					<div class="tablinks heading" onclick="openApp(event, 'PC')" id="defaultOpen">PC</div>
+  					<div class="tablinks heading" onclick="openApp(event, 'Mac')">Mac</div>
+  					<div class="tablinks heading" onclick="openApp(event, 'Chromebook')">Chromebook</div>
+				</div>
+
+			</div>
+			
+			<div id="PC" class="tabcontent pc-content">
+
+				<div id="tabs-container" class="desktop">
+
+					<div id="content1">
+						<h4><span class="orange">Ink Editor in Word</span></h4>
+						<p>Use your pen to intuitively make edits directly in Word. Strikethrough words to delete them, circle text to select it, and automatically snap highlighter ink to text. Quickly edit documents with just your digital pen<sup>*2</sup></p>
+						<p><span class="small">* Office 365 Subscription Required<br>
+						2 Touch capable tablet or PC required. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<div id="content2" style="display: none;">
+						<h4><span class="orange">Budgeting in Excel</span></h4>
+						<p>Easily track your finances using Excel templates that will help you track and manage your personal financial data like a professional. Carefully designed formulas and categories make tracking your income, expenses and savings much easier.</p>			
+					</div>
+
+					<div id="content3" style="display: none;">
+						<h4><span class="orange">Ink Editor in PowerPoint</span></h4>
+						<p>Grab a digital pen* and start putting your thoughts together on your laptop or PC then easily select, edit and convert it into real text and diagrams. Whether it's your handwritten text or multiple shapes easily go from diagrams and ideas to polished slides.</p> 
+						<p><span class="small">*Requires Office 365 subscription and touch-enabled device. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<ul id="tabs">
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-1.png"></a></li>
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-2.png"></a></li>
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-3.png"></a></li>
+					</ul>
+
+				</div>
+
+				<div id="tabs-container-2" class="fullsize desktop">
+					<div id="content1-2"><img src="img/ink-editor-large-word.png"></div>
+					<div id="content2-2" style="display: none;"><img src="img/ink-editor-large-excel.png"></div>
+					<div id="content3-2" style="display: none;"><img src="img/ink-editor-large-powerpoint.png"></div>
+				</div>
+
+				<div class="col-12 mobile">
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-word.png">
+						<h4><span class="orange">Ink Editor in Word</span></h4>
+						<p>Use your pen to intuitively make edits directly in Word. Strikethrough words to delete them, circle text to select it, and automatically snap highlighter ink to text. Quickly edit documents with just your digital pen<sup>*2</sup></p>
+						<p><span class="small">* Office 365 Subscription Required<br>
+						2 Touch capable tablet or PC required. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-excel.png">
+						<h4><span class="orange">Budgeting in Excel</span></h4>
+						<p>Easily track your finances using Excel templates that will help you track and manage your personal financial data like a professional. Carefully designed formulas and categories make tracking your income, expenses and savings much easier.</p>			
+					</div>
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-powerpoint.png">
+						<h4><span class="orange">Ink Editor in PowerPoint</span></h4>
+						<p>Grab a digital pen* and start putting your thoughts together on your laptop or PC then easily select, edit and convert it into real text and diagrams. Whether it's your handwritten text or multiple shapes easily go from diagrams and ideas to polished slides.</p> 
+						<p><span class="small">*Requires Office 365 subscription and touch-enabled device. Pen accessory may be sold separately.</span></p>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="Mac" class="tabcontent mac-content">
+
+				<div id="tabs-container" class="desktop">
+
+					<div id="content1">
+						Mac
+						<h4><span class="orange">Ink Editor in Word</span></h4>
+						<p>Use your pen to intuitively make edits directly in Word. Strikethrough words to delete them, circle text to select it, and automatically snap highlighter ink to text. Quickly edit documents with just your digital pen<sup>*2</sup></p>
+						<p><span class="small">* Office 365 Subscription Required<br>
+						2 Touch capable tablet or PC required. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<div id="content2">
+						<h4><span class="orange">Budgeting in Excel</span></h4>
+						<p>Easily track your finances using Excel templates that will help you track and manage your personal financial data like a professional. Carefully designed formulas and categories make tracking your income, expenses and savings much easier.</p>			
+					</div>
+
+					<div id="content3">
+						<h4><span class="orange">Ink Editor in PowerPoint</span></h4>
+						<p>Grab a digital pen* and start putting your thoughts together on your laptop or PC then easily select, edit and convert it into real text and diagrams. Whether it's your handwritten text or multiple shapes easily go from diagrams and ideas to polished slides.</p> 
+						<p><span class="small">*Requires Office 365 subscription and touch-enabled device. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<ul id="tabs">
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-1.png"></a></li>
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-2.png"></a></li>
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-3.png"></a></li>
+					</ul>
+
+				</div>
+	
+				<div id="tabs-container-2" class="fullsize desktop">
+					<div id="content1-2"><img src="img/ink-editor-large-word.png"></div>
+					<div id="content2-2" style="display: none;"><img src="img/ink-editor-large-excel.png"></div>
+					<div id="content3-2" style="display: none;"><img src="img/ink-editor-large-powerpoint.png"></div>
+				</div>
+
+				<div class="col-12 mobile">
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-word.png">
+						<h4><span class="orange">Ink Editor in Word</span></h4>
+						<p>Use your pen to intuitively make edits directly in Word. Strikethrough words to delete them, circle text to select it, and automatically snap highlighter ink to text. Quickly edit documents with just your digital pen<sup>*2</sup></p>
+						<p><span class="small">* Office 365 Subscription Required<br>
+						2 Touch capable tablet or PC required. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-excel.png">
+						<h4><span class="orange">Budgeting in Excel</span></h4>
+						<p>Easily track your finances using Excel templates that will help you track and manage your personal financial data like a professional. Carefully designed formulas and categories make tracking your income, expenses and savings much easier.</p>			
+					</div>
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-powerpoint.png">
+						<h4><span class="orange">Ink Editor in PowerPoint</span></h4>
+						<p>Grab a digital pen* and start putting your thoughts together on your laptop or PC then easily select, edit and convert it into real text and diagrams. Whether it's your handwritten text or multiple shapes easily go from diagrams and ideas to polished slides.</p> 
+						<p><span class="small">*Requires Office 365 subscription and touch-enabled device. Pen accessory may be sold separately.</span></p>
+					</div>
+
+				</div>
+
+			</div>
+			
+			<div id="Chromebook" class="tabcontent chromebook-content" style="border: 0px solid blue;">
+
+				<div id="tabs-container" class="desktop">
+
+					<div id="content1">
+						<h4><span class="orange">Ink Editor in Word</span></h4>
+						<p>Use your pen to intuitively make edits directly in Word. Strikethrough words to delete them, circle text to select it, and automatically snap highlighter ink to text. Quickly edit documents with just your digital pen<sup>*2</sup></p>
+						<p><span class="small">* Office 365 Subscription Required<br>
+						2 Touch capable tablet or PC required. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<div id="content2">
+						<h4><span class="orange">Budgeting in Excel</span></h4>
+						<p>Easily track your finances using Excel templates that will help you track and manage your personal financial data like a professional. Carefully designed formulas and categories make tracking your income, expenses and savings much easier.</p>			
+					</div>
+
+					<div id="content3">
+						<h4><span class="orange">Ink Editor in PowerPoint</span></h4>
+						<p>Grab a digital pen* and start putting your thoughts together on your laptop or PC then easily select, edit and convert it into real text and diagrams. Whether it's your handwritten text or multiple shapes easily go from diagrams and ideas to polished slides.</p> 
+						<p><span class="small">*Requires Office 365 subscription and touch-enabled device. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<ul id="tabs">
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-1.png"></a></li>
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-2.png"></a></li>
+					<li><a href="javascript:void(0)"><img src="img/ink-editor-thumb-3.png"></a></li>
+					</ul>
+
+				</div>
+	
+				<div id="tabs-container-2" class="fullsize desktop">
+					<div id="content1-2"><img src="img/ink-editor-large-word.png"></div>
+					<div id="content2-2" style="display: none;"><img src="img/ink-editor-large-excel.png"></div>
+					<div id="content3-2" style="display: none;"><img src="img/ink-editor-large-powerpoint.png"></div>
+				</div>
+
+				<div class="col-12 mobile">
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-word.png">
+						<h4><span class="orange">Ink Editor in Word</span></h4>
+						<p>Use your pen to intuitively make edits directly in Word. Strikethrough words to delete them, circle text to select it, and automatically snap highlighter ink to text. Quickly edit documents with just your digital pen<sup>*2</sup></p>
+						<p><span class="small">* Office 365 Subscription Required<br>
+						2 Touch capable tablet or PC required. Pen accessory may be sold separately.</span></p>
+					</div>
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-excel.png">
+						<h4><span class="orange">Budgeting in Excel</span></h4>
+						<p>Easily track your finances using Excel templates that will help you track and manage your personal financial data like a professional. Carefully designed formulas and categories make tracking your income, expenses and savings much easier.</p>			
+					</div>
+
+					<div class="fullsize">
+						<img src="img/ink-editor-large-powerpoint.png">
+						<h4><span class="orange">Ink Editor in PowerPoint</span></h4>
+						<p>Grab a digital pen* and start putting your thoughts together on your laptop or PC then easily select, edit and convert it into real text and diagrams. Whether it's your handwritten text or multiple shapes easily go from diagrams and ideas to polished slides.</p> 
+						<p><span class="small">*Requires Office 365 subscription and touch-enabled device. Pen accessory may be sold separately.</span></p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+
+
+
+<!--/* single swap tabs on Homepage and Office Help page */-->
+<script>
+function openApp(evt, appName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(appName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+
+<section class="benefits">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-12">
+				<h3>With <span class="orange">Office 365</span> Home</h3>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-12 col-md-3 content">
+				<img src="img/icon-office365-1.png" alt="Create your best work">
+				
+				<h4>Create your best work</h4>
+			
+				<p>Get premium versions of your favorite Office apps, including Word, Excel, PowerPoint, OneNote and Outlook to create, collaborate, edit and share your best work with anyone, anywhere in real-time.</p>
+			</div>
+
+			<div class="col-12 col-md-3 content">
+
+				<img src="img/icon-office365-2.png" alt="Access your world, anywhere">
+
+				<h4>Access your world, anywhere</h4>
+			
+				<p>With 1 TB of OneDrive cloud storage you can securely save, edit, and share your files from all your devices, anywhere.</p>
+			</div>
+
+			<div class="col-12 col-md-3 content">
+
+				<img src="img/icon-office365-3.png" alt="Organize your entire life">
+
+				<h4>Organize your entire life</h4>
+			
+				<p>Stay organized and up-to-date with Office apps designed with built-in intelligence, security and efficiency, including 1 TB of OneDrive cloud storage, helping you achieve more.</p>
+			</div>
+
+			<div class="col-12 col-md-3 content">
+
+				<img src="img/icon-office365-4.png" alt="Protect your digital assets">
+
+				<h4>Protect your digital assets</h4>
+			
+				<p>Safeguard your digital assets with OneDrive ransomware detection and file recovery plus Outlook.com advanced virus and phishing protection.</p>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+				
+<section class="sku-chooser desktop">
+
+	<div class="container">
+
+		<div class="row">
+
+			<!-- HEADER-->
+			<div class="col-12">
+				<h3>Can't decide? <span class="orange">Let us help.</span></h3>
+			</div>
+
+			<!-- PANEL ONE-->
+			<div class="col-12 col-md-4 panel-1">
+
+				<div class="orange-bar">Best Value</div>
+
+				<div class="office-365"><span class="orange">Office 365</span><br>
+				Home</div>
+
+				<div class="month-subscription">12 month subscription<br>
+				Works on Windows,<br>
+				Mac, iOS and Android <sup>1</sup></div>
+
+				<div class="sku-chooser-img"><img src="img/sku-chooser-panel-1.jpg"></div>
+
+			</div>
+
+			<!-- PANEL TWO-->
+			<div class="col-12 col-md-4 panel-2">
+
+				<!-- row one -->
+				<div class="col-12 row-1">
+	
+					<div class="row-1-column-1">
+						<div class="box">
+							<span class="title-small">Up to</span>
+							<span class="title-big">6</span>
+							<span class="title-small">People</span>
+						</div>
+					</div>				
+
+					<div class="row-1-column-2">
+						<img src="img/icon-user.png">
+					</div>
+	
+	
+					<div class="row-1-column-3">
+						<div class="box">
+							<span class="title-small">&nbsp;</span>
+							<span class="title-big">1</span>
+							<span class="title-small">Person</span>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- row two -->
+				<div class="col-12 row-2">
+
+					<div class="row-2-column-1">
+						Works on Windows, Mac, iOS and Android<sup>1</sup>
+					</div>
+
+					<div class="row-2-column-2">
+						<img src="img/icon-devices.png">
+					</div>
+
+					<div class="row-2-column-3">
+						Works on Windows, Mac, iOS and Android<sup>1</sup>
+					</div>
+
+				</div>
+
+				<!-- row three -->
+				<div class="col-12 row-3">
+
+					<div class="row-3-column-1">
+						<div class="centered">Premium version of Apps<br><br><br>
+
+						<span class="title">Also includes:</span><br><br>
+						<img src="img/icon-outlook.png"><br>
+						<span class="label">Outlook</span>
+						</div>
+					</div>
+
+					<div class="row-3-column-2">
+	
+						<div class="icon-title">Apps</div>
+		
+						<img src="img/icon-word.png"><br>
+						Word<br>
+						<img src="img/icon-excel.png"><br>
+						Excel<br>
+						<img src="img/icon-powerpoint.png"><br>
+						PowerPoint<br>
+						<img src="img/icon-onenote.png"><br>
+						OneNote
+					</div>
+
+					<div class="row-3-column-3">
+						<div class="centered">Premium version of Apps<br><br><br>
+
+						<span class="title">Also includes:</span><br><br>
+						<img src="img/icon-outlook.png"><br>
+						<span class="label">Outlook</span></div>
+					</div>
+
+				</div>
+
+				<!-- row four -->
+
+				<div class="col-12 row-4">
+
+					<div class="row-4-column-1">
+						<div class="centered">1TB</div>
+					</div>
+
+					<div class="row-4-column-2">
+	
+						<div class="title">Cloud Storage</div>
+						<img src="img/icon-word.png"><br>
+						OneDrive Cloud Storage
+					</div>
+
+					<div class="row-4-column-3">
+						<div class="centered">1TB</div>
+					</div>
+
+				</div>
+
+				<!-- row five -->
+				<div class="col-12 row-5">	
+	
+					<div class="row-5-column-1">
+						<div class="centered">Installed</div>
+					</div>
+
+					<div class="row-5-column-2">
+						<div class="title">Services</div>
+		
+						<img src="img/icon-tech-support.png"><br>
+						Tech Support
+					</div>
+
+					<div class="row-5-column-3">
+						<div class="centered">Installed</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- PANEL THREE-->
+			<div class="col-12 col-md-4 panel-3">
+
+				<div class="orange-bar">&nbsp;</div>
+
+				<div class="office-365"><span class="orange">Office 365</span><br>
+				Personal</div>
+
+				<div class="month-subscription">12 month subscription<br>
+				Works on Windows,<br>
+				Mac, iOS and Android <sup>1</sup></div>
+
+				<div class="sku-chooser-img"><img src="img/sku-chooser-panel-3.jpg"></div>
+
+				<div class="caret-container">
+					<div class="caret left centered"><img src="img/caret-left.png"></div>
+					<div class="caret right centered"><img src="img/caret-right.png"></div>
+				</div>
+
+			</div>
+
+			<!-- FOOTNOTE-->
+			<div class="col-12 footnote">
+				<sup>1</sup>iOS and Android require separate app download.
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<section class="sku-chooser mobile">
+
+	<div class="container">
+
+		<div class="row">
+
+			<!-- HEADER -->
+			<div class="col-12">
+				<h3>Can't decide? <span class="orange">Let us help.</span></h3>
+			</div>
+
+			<!-- PANEL ONE -->
+			<div class="col-12 col-md-4 panel-1">
+
+				<div class="orange-bar">Best Value</div>
+
+				<div class="office-365"><span class="orange">Office 365</span><br>
+				Home</div>
+
+				<div class="month-subscription">12 month subscription<br>
+				Works on Windows,<br>
+				Mac, iOS and Android <sup>1</sup></div>
+
+				<div class="sku-chooser-img"><img src="img/sku-chooser-panel-1.jpg"></div>
+
+			</div>
+
+			<!-- PANEL TWO -->
+			<div class="col-12 col-md-1 panel-2">
+
+				<!-- row one column 1 -->
+				<div class="row-1-column-1">
+
+					<div class="centered alt">
+						<img src="img/icon-user.png">
+					</div>
+
+				</div>
+
+				<!-- row one column 2 -->
+				<div class="row-1-column-2">
+	
+					<div class="total-users-container">
+
+						<div class="total-users-box">
+
+							<span class="total-users-small">Up to</span>
+							<span class="total-users-big">6</span>
+							<span class="total-users-small">People</span>
+						</div>
+
+					</div>
+
+				</div>		
+
+				<!-- row two column 1 -->
+				<div class="row-2-column-1">
+
+					<div class="centered alt">
+						<img src="img/icon-devices.png">
+					</div>
+
+				</div>
+
+				<!-- row two column 2 -->
+				<div class="row-2-column-2">
+
+					<div class="inner">
+						Works on Windows, Mac, iOS and Android<sup>1</sup>
+					</div>
+	
+				</div>
+
+				<!-- row three column 1 -->
+				<div class="row-3-column-1">
+
+					<div class="app-container">
+						<div class="app-title">Apps</div>
+	
+						<div class="app-icon"><img src="img/icon-word.png"><br>
+						Word</div>
+						<div class="app-icon"><img src="img/icon-excel.png"><br>
+						Excel</div>
+						<div class="app-icon"><img src="img/icon-powerpoint.png"><br>
+						PowerPoint</div>
+						<div class="app-icon"><img src="img/icon-onenote.png"><br>
+						OneNote</div>
+					</div>
+				</div>
+
+				<!-- row three column 2 -->
+				 <div class="row-3-column-2">
+
+					<div class="inner">
+						<div class="*centered">Premium version of Apps</div>
+					</div>
+				</div>
+
+				<!-- row four column 1 -->
+				<div class="row-4-column-1">
+
+					<div class="title-box">
+						<div class="title">Cloud Storage</div>
+		
+						<div><img src="img/icon-onedrive-cloud-storage.png"><br>
+						OneDrive<br>
+						Cloud Storage</div>
+					</div>
+
+				</div>
+
+				<!-- row four column 2 -->
+				<div class="row-4-column-2">
+
+					<div class="inner">
+						<div class="">1TB per person</div>
+					</div>
+
+				</div>
+
+				<!-- row five column 1 -->
+				<div class="row-5-column-1">
+
+					<div class="title-box">
+						<div class="title">Services</div>
+		
+						<div class="icon"><img src="img/icon-tech-support.png"><br>
+						Tech Support</div>
+					</div>
+
+				</div>
+
+				<!-- row five column 2 -->
+				<div class="row-5-column-2">	
+	
+					<div class="inner">
+						<div class="">Installed</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- *** this will be the second slide in the carousel *** -->
+
+			<!-- PANEL THREE -->
+			<div class="col-12 col-md-1 panel-2" style="background-color: #e6e6e6; display: grid; grid-template-columns: 100%; display: none;">
+
+				<!-- row one -->
+				<div class="col-12" style="max-height: 100px; grid-column: 1; padding: 0; display: block; position: relative; border: 1px solid green;">
+
+					<div style="padding: 0; display: inline-block;">
+						<div style="text-align: center; padding: 10px 15px; border: 0px solid #e6e6e6;">
+							<span style="font-size: 8px; font-weight: bold; line-height: 120%; display: block;">&nbsp;</span>
+							<span style="font-size: 32px; font-weight: bold; line-height: 130%; display: block;">1</span>
+							<span style="font-size: 8px; font-weight: bold; line-height: 100%; display: block;">Person</span>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- row two -->
+				<div class="col-12" style="max-height: 100px; grid-column: 1; padding: 0; display: block; position: relative; border: 1px solid green;">
+
+					<div class="row-2-column-3">
+						<div class="*centered">Works on Windows, Mac, iOS and Android<sup>1</sup></div>
+					</div>
+
+				</div>
+
+				<!-- row three -->
+				<div class="col-12" style="max-height: 200px; grid-column: 1; padding: 0; display: block; position: relative; border: 1px solid green;">
+
+					<div class="row-3-column-3">
+						<div class="*centered">Premium version of Apps<br><br><br>
+
+						<span style="font-weight: normal;">Also includes:</span><br><br>
+						<img src="img/icon-outlook.png" style="max-width: 28px;"><br>
+						<span style="font-size: 8px; font-weight: bold; padding-top: 3px; display: block;">Outlook</span></div>
+					</div>
+
+				</div>
+
+				<!-- row four -->
+				<div class="col-12" style="max-height: 100px; grid-column: 1; padding: 0; display: block; position: relative; border: 1px solid green;">
+
+					<div class="row-4-column-3">
+						<div class="">1TB</div>
+					</div>
+
+				</div>
+
+				<!-- row five -->
+				<div class="col-12" style="max-height: 100px; grid-column: 1; padding: 0; display: block; position: relative; border: 1px solid green;">	
+
+					<div class="row-5-column-3">
+						<div class="">Installed</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- PANEL FOUR -->
+			<div class="col-12 col-md-4 panel-3" style="display: none;">
+
+				<div class="orange-bar">&nbsp;</div>
+
+				<div class="office-365"><span class="orange">Office 365</span><br>
+				Personal</div>
+
+				<div class="month-subscription">12 month subscription<br>
+				Works on Windows,<br>
+				Mac, iOS and Android <sup>1</sup></div>
+
+				<div class="sku-chooser-img"><img src="img/sku-chooser-panel-3.jpg"></div>
+
+				<div class="caret-container" style="width: 100%; height: 100%; position: absolute; border: 0px solid red;">
+					<div class="caret left centered"><img src="img/caret-left.png"></div>
+					<div class="caret right centered"><img src="img/caret-right.png"></div>
+				</div>
+
+			</div>
+
+			<!-- *** end this will be the second slide in the carousel *** -->
+
+			<!-- FOOTNOTE -->
+			<div class="col-12" style="font-size: 9px; color: grey; text-align: center; padding: 25px 0;">
+				<sup>1</sup>iOS and Android require separate app download.
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+				
+			<!--</div>
+
+		</div>
+
+	</div>
+
+</section>-->
+
+<section class="other-products">
+
+	<div class="container">
+	
+		<div class="row">
+		
+			<div class="col-12">
+				<h3>Other-products you might like</h3>
+			</div>
+		
+		</div>
+
+		<div class="row">
+		
+			<div class="col-12">
+
+
+
+				
+			</div>
+			
+		</div>
+
+	</div>
+
+</section>
+
+
+<!-- Vendor Scripts (CDN)  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js"></script>
+
+<!-- Custom Scripts Bundle  -->
+<script src="bundle.js"></script>
+
+</body>
+</html>
